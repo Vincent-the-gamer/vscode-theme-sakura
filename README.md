@@ -17,7 +17,7 @@
 
 # Installation
 
-Search `sakura` in VSCode extension menu.
+Search `code-sakura` in VSCode extension menu.
 
 # Animation
 
