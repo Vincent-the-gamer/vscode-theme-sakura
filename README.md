@@ -41,9 +41,9 @@ To get better cursor effect, add these to `settings.json`
 https://github.com/user-attachments/assets/4a780545-09c3-4ede-a4b1-e1a52308fce1
 
 
-# Enable Glowing Effect
+# Enable Blooming Effect
 
-Provide your path to `glow.css` in `settings.json`.
+Provide your path to `bloom.css` in `settings.json`.
 
 > [!WARNING]
 > `file://` is required!!!!
@@ -52,14 +52,14 @@ macOS:
 
 ```json
 "sakura.imports": [
-    "file:///Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/glow.css"
+    "file:///Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
 ],
 ```
 
 Windows: 
 ```json
 "sakura.imports": [
-    "file://C:/Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/glow.css"
+    "file://C:/Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
 ],
 ```
 
@@ -67,14 +67,14 @@ Linux:
 
 ```json
 "sakura.imports": [
-    "file:///home/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/glow.css"
+    "file:///home/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
 ],
 ```
 
-Then, run `Enable Sakura Glowing`
+Then, run `Enable Sakura Bloom`
 
 - `Ctrl + Shift + P` or `Command + Shift + P`
-- Input `enable sakura glowing`
+- Input `enable sakura bloom`
 
 And happy hacking~~~ ☆´∀｀☆
 
@@ -108,7 +108,7 @@ Additionally, change your comment color.
 ```json
 "editor.tokenColorCustomizations": {
     "comments": {
-        "foreground": "#ffd9c4",
+        "foreground": "#ffcbfb",
         "fontStyle": "bold"
     }
 },
@@ -116,6 +116,15 @@ Additionally, change your comment color.
 
 Then your Code will look like my preview pic.
 
+# Preview
+
+## Normal
+
+![normal](./.github/normal.png)
+
+## Glowing
+
+![glowing](./.github/glowing.png)
 
 # Publish
 ```shell
