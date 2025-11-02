@@ -1,0 +1,94 @@
+{
+  "name": "sakura",
+  "displayName": "Sakura",
+  "description": "Sakura blooms in VSCode.",
+  "version": "0.1.0",
+  "author": "Vincent-the-gamer",
+  "publisher": "Vincent-the-gamer",
+  "icon": "icon.png",
+  "homepage": "https://github.com/Vincent-the-gamer/vscode-theme-sakura#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vincent-the-gamer/vscode-theme-sakura"
+  },
+  "bugs": {
+    "url": "https://github.com/Vincent-the-gamer/vscode-theme-sakura/issues"
+  },
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "keywords": [
+    "sakura",
+    "vscode theme",
+    "theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "main": "./dist/index.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sakura",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "sakura.installSakura",
+        "title": "Enable Sakura Blooms"
+      },
+      {
+        "command": "sakura.uninstallSakura",
+        "title": "Disable Sakura Blooms"
+      },
+      {
+        "command": "sakura.updateSakura",
+        "title": "Reload Sakura Blooms"
+      }
+    ],
+    "configuration": {
+      "title": "Sakura Bloom Configuration",
+      "properties": {
+        "sakura.imports": {
+          "description": "CSS/JS files, as an array of URLs, not file paths",
+          "type": "array",
+          "default": []
+        },
+        "sakura.statusbar": {
+          "description": "Enable Status Indicator",
+          "type": "boolean",
+          "default": true
+        },
+        "sakura.staging_dir": {
+          "description": "Directory used for storing staged CSS/JS files. Must be inside VSCode's extension directory, otherwise VSCode will refuse to load the your custom CSS/JS.",
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  },
+  "scripts": {
+    "login:vsce": "vsce login vincent-the-gamer",
+    "logout:vsce": "vsce logout vincent-the-gamer",
+    "pack": "vsce package",
+    "publish": "vsce publish",
+    "build": "tsdown && pnpm run trail",
+    "dep": "taze major",
+    "trail": "cp src/trail.js dist/trail.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "@types/vscode": "^1.103.0",
+    "@vscode/vsce": "3.3.2",
+    "taze": "^19.3.0",
+    "tsdown": "^0.14.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "file-url": "^4.0.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^11.1.0"
+  }
+}
