@@ -38,9 +38,6 @@ To get better cursor effect, add these to `settings.json`
 "editor.cursorSmoothCaretAnimation": "on"
 ```
 
-https://github.com/user-attachments/assets/4a780545-09c3-4ede-a4b1-e1a52308fce1
-
-
 # Enable Blooming Effect
 
 Provide your path to `bloom.css` in `settings.json`.
