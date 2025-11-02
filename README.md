@@ -25,7 +25,7 @@ Add `dist/trail.js` from extension folder to activate animation.
 
 ```json
 "sakura.imports": [
-    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/glow.css",
+    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css",
     "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/dist/trail.js"
 ],
 ```
