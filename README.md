@@ -5,15 +5,12 @@
 <p align="center">Sakura blooms in VSCode.</p>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=vincent-the-gamer.sakura" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/vincent-the-gamer.sakura.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=vincent-the-gamer.sakura-chan-theme" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/vincent-the-gamer.sakura-chan-theme.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 <p align="center">
     <b><i>さくら、ひらひら～～</i></b>
 </p>
-
-> [!NOTE]
-> Under construction.
 
 # Installation
 
