@@ -5,7 +5,7 @@
 		const e2 = document.querySelector(".right-items .__JINX_INDICATOR_CLS");
 		if (e1 && !e2) {
 			let e = document.createElement("div");
-			e.id = "vincent-the-gamer.sakura";
+			e.id = "vincent-the-gamer.sakura-chan-theme";
 			e.title = "Sakura";
 			e.className = "statusbar-item right __JINX_INDICATOR_CLS";
 			{

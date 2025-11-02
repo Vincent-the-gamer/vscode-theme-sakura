@@ -23,7 +23,7 @@ function isVSCodeBelowVersion(version: string) {
 }
 
 export function activate(this: any, context: vscode.ExtensionContext) {
-	this.extensionName = 'vincent-the-gamer.sakura';
+	this.extensionName = 'vincent-the-gamer.sakura-chan-theme';
 	const appDir = require.main
 		? path.dirname(require.main.filename)
 		: globalThis._VSCODE_FILE_ROOT;
@@ -42,7 +42,7 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 		htmlFile = path.join(base, electronBase, "workbench", "workbench.esm.html");
 	}
 	const BackupFilePath = (uuid: any) =>
-		path.join(base, electronBase, "workbench", `workbench.${uuid}.bak-sakura`);
+		path.join(base, electronBase, "workbench", `workbench.${uuid}.bak-sakura-chan-theme`);
 
 	async function getContent(url: string) {
 		if (/^file:/.test(url)) {
@@ -121,7 +121,7 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 		const htmlDir = path.dirname(htmlFile);
 		const htmlDirItems = await fs.promises.readdir(htmlDir);
 		for (const item of htmlDirItems) {
-			if (item.endsWith(".bak-sakura")) {
+			if (item.endsWith(".bak-sakura-chan-theme")) {
 				await fs.promises.unlink(path.join(htmlDir, item));
 			}
 		}
@@ -129,7 +129,7 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 
 	// Patching
 	async function performPatch(uuidSession: string) {
-		const config = vscode.workspace.getConfiguration("sakura");
+		const config = vscode.workspace.getConfiguration("sakura-chan-theme");
 		if (!patchIsProperlyConfigured(config)) {
 			return vscode.window.showInformationMessage(msg.notConfigured);
 		}
@@ -205,7 +205,7 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 	}
 	async function getIndicatorJs() {
 		let indicatorJsPath;
-		let ext = vscode.extensions.getExtension("vincent-the-gamer.sakura");
+		let ext = vscode.extensions.getExtension("vincent-the-gamer.sakura-chan-theme");
 		if (ext && ext.extensionPath) {
 			indicatorJsPath = path.resolve(ext.extensionPath, "src/statusbar.ts");
 		} else {
@@ -231,15 +231,15 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 	}
 
 	const installSakura = vscode.commands.registerCommand(
-		"sakura.installSakura",
+		"sakura-chan-theme.installSakura",
 		cmdInstall
 	);
 	const uninstallSakura = vscode.commands.registerCommand(
-		"sakura.uninstallSakura",
+		"sakura-chan-theme.uninstallSakura",
 		cmdUninstall
 	);
 	const updateSakura = vscode.commands.registerCommand(
-		"sakura.updateSakura",
+		"sakura-chan-theme.updateSakura",
 		cmdReinstall
 	);
 

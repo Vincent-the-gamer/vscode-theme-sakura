@@ -11,7 +11,7 @@ export default {
 	notfound: "Sakura bloom not found.",
 	notConfigured:
 		"Sakura bloom path not configured. " +
-		'Please set "sakura.imports" in your user settings.',
+		'Please set "sakura-chan-theme.imports" in your user settings.',
 	reloadAfterVersionUpgrade:
 		"Detected reloading CSS / JS after VSCode is upgraded. " + "Performing application only.",
 	cannotLoad: (url: string) => `Cannot load '${url}'. Skipping.`

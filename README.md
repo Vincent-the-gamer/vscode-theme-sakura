@@ -24,9 +24,9 @@ Search `sakura-chan` in VSCode extension menu.
 Add `dist/trail.js` from extension folder to activate animation.
 
 ```json
-"sakura.imports": [
-    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css",
-    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/dist/trail.js"
+"sakura-chan-theme.imports": [
+    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-{plugin-version}/bloom.css",
+    "file://<UserFolder>/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-{plugin-version}/dist/trail.js"
 ],
 ```
 
@@ -48,23 +48,23 @@ Provide your path to `bloom.css` in `settings.json`.
 macOS:
 
 ```json
-"sakura.imports": [
-    "file:///Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
+"sakura-chan-theme.imports": [
+    "file:///Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-{plugin-version}/bloom.css"
 ],
 ```
 
 Windows: 
 ```json
-"sakura.imports": [
-    "file://C:/Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
+"sakura-chan-theme.imports": [
+    "file://C:/Users/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-{plugin-version}/bloom.css"
 ],
 ```
 
 Linux:
 
 ```json
-"sakura.imports": [
-    "file:///home/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-{plugin-version}/bloom.css"
+"sakura-chan-theme.imports": [
+    "file:///home/{USER_NAME}/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-{plugin-version}/bloom.css"
 ],
 ```
 

@@ -36,32 +36,32 @@
     ],
     "commands": [
       {
-        "command": "sakura.installSakura",
+        "command": "sakura-chan-theme.installSakura",
         "title": "Enable Sakura Blooms"
       },
       {
-        "command": "sakura.uninstallSakura",
+        "command": "sakura-chan-theme.uninstallSakura",
         "title": "Disable Sakura Blooms"
       },
       {
-        "command": "sakura.updateSakura",
+        "command": "sakura-chan-theme.updateSakura",
         "title": "Reload Sakura Blooms"
       }
     ],
     "configuration": {
       "title": "Sakura Bloom Configuration",
       "properties": {
-        "sakura.imports": {
+        "sakura-chan-theme.imports": {
           "description": "CSS/JS files, as an array of URLs, not file paths",
           "type": "array",
           "default": []
         },
-        "sakura.statusbar": {
+        "sakura-chan-theme.statusbar": {
           "description": "Enable Status Indicator",
           "type": "boolean",
           "default": true
         },
-        "sakura.staging_dir": {
+        "sakura-chan-theme.staging_dir": {
           "description": "Directory used for storing staged CSS/JS files. Must be inside VSCode's extension directory, otherwise VSCode will refuse to load the your custom CSS/JS.",
           "type": "string",
           "default": ""
