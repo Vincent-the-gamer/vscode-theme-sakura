@@ -678,7 +678,7 @@ canvas {
   top: 0px;
   left: 0px;
   width: 4px;
-  background: linear-gradient(to bottom, #01058e, #03edf9) !important;
+  background: linear-gradient(to bottom, #79018e, #03edf9) !important;
   opacity: 1;
 }
 
@@ -707,7 +707,7 @@ canvas {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(to right, #8728fc, #0000ff) !important;
+  background: linear-gradient(to right, #28d5fc, #ff2dfc) !important;
 }
 
 /* update lightbulb to be neon */
@@ -738,7 +738,7 @@ canvas {
 
 .monaco-list-row.focused,
 .monaco-list-row.selected {
-  background-color: #2d52c033 !important;
+  background-color: #40004447 !important;
 }
 
 .explorer-folders-view span[title~="emphasized"],
@@ -752,7 +752,7 @@ canvas {
 }
 
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-  background: rgb(99, 130, 255);
+  background: rgb(237, 99, 255);
   opacity: 0.5;
 }
 

@@ -86,7 +86,7 @@ Download pic from the top of this document, then add these codes to `settings.js
 ```json
 "background.fullscreen": {
     "images": ["file:///path/to/pic"],
-    "opacity": 0.18,
+    "opacity": 0.1,
     "size": "cover",
     "position": "center",
     "interval": 0

@@ -133,11 +133,11 @@
     "terminalCursor.foreground": "#7ccbff",
     "debugToolBar.background": "#894685",
     "walkThrough.embeddedEditorBackground": "#232530",
-    "gitDecoration.modifiedResourceForeground": "#00ff00ee",
-    "gitDecoration.deletedResourceForeground": "#fe4450",
+    "gitDecoration.modifiedResourceForeground": "#5eff00ee",
+    "gitDecoration.deletedResourceForeground": "#ff4e4e",
     "gitDecoration.addedResourceForeground": "#00e5ffcc",
     "gitDecoration.untrackedResourceForeground": "#f2ff00",
-    "gitDecoration.ignoredResourceForeground": "#ffffff59",
+    "gitDecoration.ignoredResourceForeground": "#ffffff5a",
     "minimapGutter.addedBackground": "#00ffa299",
     "minimapGutter.modifiedBackground": "#b893ce",
     "minimapGutter.deletedBackground": "#fe4450",
@@ -784,7 +784,7 @@
         "entity.name.section.markdown",
       ],
       "settings": {
-        "foreground": "#ff00b7",
+        "foreground": "#09e6ff",
         "fontStyle": "bold"
       }
     },

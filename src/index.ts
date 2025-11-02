@@ -84,7 +84,7 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 		try {
 			const htmlContent = await fs.promises.readFile(htmlFilePath, "utf-8");
 			const m = htmlContent.match(
-				/<!-- !! JINX-SESSION-ID ([0-9a-fA-F-]+) !! -->/
+				/<!-- !! SAKURA-SESSION-ID ([0-9a-fA-F-]+) !! -->/
 			);
 			if (!m) return null;
 			else return m[1];
@@ -145,11 +145,11 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 
 		html = html.replace(
 			/(<\/html>)/,
-			`<!-- !! JINX-SESSION-ID ${uuidSession} !! -->\n` +
-				"<!-- !! JINX-START !! -->\n" +
+			`<!-- !! SAKURA-SESSION-ID ${uuidSession} !! -->\n` +
+				"<!-- !! SAKURA-START !! -->\n" +
 				indicatorJS +
 				injectHTML +
-				"<!-- !! JINX-END !! -->\n</html>"
+				"<!-- !! SAKURA-END !! -->\n</html>"
 		);
 		try {
 			await fs.promises.writeFile(htmlFile, html, "utf-8");
@@ -161,10 +161,10 @@ export function activate(this: any, context: vscode.ExtensionContext) {
 	}
 	function clearExistingPatches(html: string) {
 		html = html.replace(
-			/<!-- !! JINX-START !! -->[\s\S]*?<!-- !! JINX-END !! -->\n*/,
+			/<!-- !! SAKURA-START !! -->[\s\S]*?<!-- !! SAKURA-END !! -->\n*/,
 			""
 		);
-		html = html.replace(/<!-- !! JINX-SESSION-ID [\w-]+ !! -->\n*/g, "");
+		html = html.replace(/<!-- !! SAKURA-SESSION-ID [\w-]+ !! -->\n*/g, "");
 		return html;
 	}
 
