@@ -82,7 +82,10 @@ Input Mono: https://input.djr.com/
 
 Please use [Background](https://github.com/shalldie/vscode-background) extension.
 
-Download pic from the top of this document, then add these codes to `settings.json`.
+Download this pic, then add these codes to `settings.json`.
+
+![background](./.github/background.jpg)
+
 ```json
 "background.fullscreen": {
     "images": ["file:///path/to/pic"],
