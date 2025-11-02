@@ -90,7 +90,7 @@
     "editorGutter.deletedBackground": "#fa2e46a4",
     "diffEditor.insertedTextBackground": "#0beb9935",
     "diffEditor.removedTextBackground": "#fe445035",
-    "editorWidget.background": "#00316cdc",
+    "editorWidget.background": "#6c0060dc",
     "editorWidget.border": "#ffffff22",
     "editorWidget.resizeBorder": "#ffffff44",
     "editorSuggestWidget.highlightForeground": "#f97e72",
@@ -167,7 +167,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#ffcaf5"
+        "foreground": "#fffea8"
       }
     },
     {
@@ -288,14 +288,14 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#ff6200"
+        "foreground": "#00c3ff"
       }
     },
     {
       "name": "Function",
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
-        "foreground": "#00fac4"
+        "foreground": "#ffc7fd"
       }
     },
     {
@@ -348,35 +348,35 @@
       "name": "Unit",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#ff1500"
+        "foreground": "#ffe056"
       }
     },
     {
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#ff0011"
+        "foreground": "#00ffc3"
       }
     },
     {
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#ff7800"
+        "foreground": "#eaff00"
       }
     },
     {
       "name": "Support variable",
       "scope": "support.variable",
       "settings": {
-        "foreground": "#00bbff"
+        "foreground": "#00fffb"
       }
     },
     {
       "name": "Object literal key / property",
       "scope": ["meta.object-literal.key", "support.type.property-name"],
       "settings": {
-        "foreground": "#00fff7"
+        "foreground": "#00ff26"
       }
     },
     {
@@ -424,14 +424,14 @@
       "name": "JS object path",
       "scope": "variable.other.constant.property.js, variable.other.property.js",
       "settings": {
-        "foreground": "#ff7800"
+        "foreground": "#ffd000"
       },
     },
     {
       "name": "Color",
       "scope": "constant.other.color",
       "settings": {
-        "foreground": "#00ffea"
+        "foreground": "#00ff37"
       }
     },
     {
@@ -445,7 +445,7 @@
       "name": "CSS #id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#ff7800"
+        "foreground": "#22ff00"
       }
     },
     {
@@ -455,7 +455,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#ff6200"
+        "foreground": "#e3bbf8"
       }
     },
     {
